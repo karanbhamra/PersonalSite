@@ -1,0 +1,54 @@
+html, body {
+    background: url("../images/bg.jpg") no-repeat center center fixed; 
+    margin:0;
+    padding:0;
+    height:100%;
+}
+h1, h2, h3, h4, h5, h6, footer {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+.button {
+    background-color: Transparent;
+    color: #333;
+    background: rgba(0,0,0,0);
+    border: solid 3px #333;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    margin: 30px;
+    cursor: pointer;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;
+}
+#links {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+#name {
+    position: relative;
+    align-content: center;
+    font-size: 40px;
+}
+#description {
+    font-size: 30px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+button:hover {
+    background: rgba(0,0,0,0);
+    color: #333;
+    box-shadow: inset 0 0 0 3px #333;
+}
